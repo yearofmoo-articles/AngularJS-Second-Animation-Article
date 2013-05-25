@@ -1,0 +1,97 @@
+.custom-in {
+  -webkit-animation:custom_in 0.5s;
+  -moz-animation:custom_in 0.5s;
+  -o-animation:custom_in 0.5s;
+  animation:custom_in 0.5s;
+}
+
+@keyframes custom_in {
+  from {
+    transform:rotate(-30deg);
+    opacity:0;
+  }
+  to {
+    transform:rotate(0deg);
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes custom_in {
+  from {
+    -webkit-transform:rotate(-30deg);
+    opacity:0;
+  }
+  to {
+    -webkit-transform:rotate(0deg);
+    opacity:1;
+  }
+}
+
+@-moz-keyframes custom_in {
+  from {
+    -moz-transform:rotate(-30deg);
+    opacity:0;
+  }
+  to {
+    -moz-transform:rotate(0deg);
+    opacity:1;
+  }
+}
+
+@-o-keyframes custom_in {
+  from {
+    -o-transform:rotate(-30deg);
+    opacity:0;
+  }
+  to {
+    -o-transform:rotate(0deg);
+    opacity:1;
+  }
+}
+
+.custom-out {
+  -webkit-animation:custom_out 0.5s;
+  -moz-animation:custom_out 0.5s;
+  -o-animation:custom_out 0.5s;
+  animation:custom_out 0.5s;
+}
+
+@keyframes custom_out {
+  from {
+    opacity:1;
+  }
+  to {
+    transform:rotate(30deg);
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes custom_out {
+  from {
+    opacity:1;
+  }
+  to {
+    -webkit-transform:rotate(90deg);
+    opacity:0;
+  }
+}
+
+@-moz-keyframes custom_out {
+  from {
+    opacity:1;
+  }
+  to {
+    -moz-transform:rotate(90deg);
+    opacity:0;
+  }
+}
+
+@-o-keyframes custom_out {
+  from {
+    opacity:1;
+  }
+  to {
+    -o-transform:rotate(90deg);
+    opacity:0;
+  }
+}

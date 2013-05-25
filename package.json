@@ -1,0 +1,9 @@
+{
+  "name": "YOM - AngularJS Second Testing Article",
+  "version": "0.0.0",
+  "dependencies": {
+    "karma": "0.8.4",
+    "chai": "1.6.0",
+    "http-server": "0.5.3"
+  }
+}

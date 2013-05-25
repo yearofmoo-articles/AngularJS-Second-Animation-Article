@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html ng-app="AngularPortfolio" ng-controller="AppCtrl">
+<head>
+  <link rel="stylesheet" type="text/css" href="./lib/Gumby/css/gumby.css" />
+  <link rel="stylesheet" type="text/css" href="./lib/animate.css" />
+  <link rel="stylesheet" type="text/css" href="./styles/app.css" />
+  <link rel="stylesheet" type="text/css" href="./styles/animations.css" />
+</head>
+<body app-scroll>
+  <main id="wrapper">
+    <header>
+      <div class="website-header">
+        <div class="row">
+          <h1>AngularJS Portfolio</h1>
+          <nav>
+            <a href="https://github.com/yearofmoo-articles/AngularJS-Second-Animation-Article" target="_blank" rel="nofollow" class="btn info medium">
+              <i class="icon-github icon-left"></i> View Github Repo
+            </a>
+            <a href="http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html" target="_blank" rel="nofollow" class="btn library medium">
+              <i class="icon-cloud icon-left"></i> View Article
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="navbar nav1 website-nav">
+        <nav class="row">
+          <form class="search-website-form field">
+            <input type="search" placeholder="Search for Websites..." class="search input" ng-model="q" ng-change="search(q)" />
+          </form>
+          <ul class="toggles">
+            <li>
+              <a href="#/?q=all" ng-class="{on:q=='all'}">All Websites</a>
+            </li>
+            <li>
+              <a href="#/?q=open-source" ng-class="{on:q=='open-source'}">Open Source</a>
+            </li>
+            <li>
+              <a href="#/?q=only-google" ng-class="{on:q=='only-google'}">Only Google</a>
+            </li>
+            <li>
+              <a href="#/?q=games" ng-class="{on:q=='games'}">Games</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navbar alternative-nav">
+        <div class="row aligned-inline-form">
+          <div class="col ani">
+            <span class="medium btn library">
+              Animation Library <i class="icon-right-open"></i>
+            </span>
+          </div>
+          <div class="col ani">
+            <a href="" ng-click="library='greensock'" class="medium default btn" ng-class="{info:library=='greensock'}">
+              Greensock.js
+            </a>
+          </div>
+          <div class="col ani">
+            <a href="" ng-click="library='animatecss'" class="medium default btn" ng-class="{info:library=='animatecss'}">
+              Animate.css
+            </a>
+          </div>
+          <div class="col ani">
+            <a href="" ng-click="library='custom'" class="medium default btn" ng-class="{info:library=='custom'}">
+              Custom CSS3 Keyframes
+            </a>
+          </div>
+          <div class="col ani">
+            <a href="" ng-click="library=''" class="medium default btn" ng-class="{info:library==''}">
+              No Animation
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="content">
+      <div ng-view id="view"></div>
+    </div>
+  </main>
+  <footer class="navbar nav1">
+    <div class="row">
+      <div class="inner">
+        <div class="yearofmoo">
+          <a href="#" target="_blank" class="btn info">
+            <i class="icon-cloud"></i> http://www.yearofmoo.com
+          </a>
+        </div>
+        <nav>
+          <a href="https://github.com/yearofmoo-articles/AngularJS-Second-Animation-Article" target="_blank" rel="nofollow" class="btn info medium">
+            <i class="icon-github icon-left"></i> View Github Repo
+          </a>
+          <a href="http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html" target="_blank" rel="nofollow" class="btn library medium">
+            <i class="icon-cloud icon-left"></i> View Article
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.9.7/TweenMax.min.js"></script>
+  <script type="text/javascript" src="./lib/lunr.js"></script>
+  <script type="text/javascript" src="./db/data.js"></script>
+  <script type="text/javascript" src="./scripts/animations.js"></script>
+  <script type="text/javascript" src="./scripts/search.js"></script>
+  <script type="text/javascript" src="./scripts/app.js"></script>
+</body>
+</html>
