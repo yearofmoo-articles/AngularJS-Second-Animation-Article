@@ -1,5 +1,4 @@
-angular.module('AngularPortfolio', ['appSearch','appAnimations'])
-
+angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
   .config(['$routeProvider', function($routeProvider) {
     var shared = {
       controller: 'ListCtrl',
@@ -78,15 +77,16 @@ angular.module('AngularPortfolio', ['appSearch','appAnimations'])
   })
 
   .directive('appFocus', ['appSearch','$rootScope','$compile','$animator',function(appSearch, $rootScope, $compile, $animator) {
-    var former, formerContainer, formerIndex = -1;
+    var former, formerContainer, formerID, formerIndex = -1;
     $rootScope.$on('results', function() {
       if(former) {
         formerContainer.remove();
-        formerContainer = former = formerIndex = null;
+        formerID = formerContainer = former = formerIndex = null;
       }
     });
     return function($scope, element, attrs) {
       element.bind('click', function() {
+        if(formerID == element.attr('id')) return;
         var animator = $animator($scope, {
           ngAnimate: attrs.appFocus
         });
@@ -117,6 +117,7 @@ angular.module('AngularPortfolio', ['appSearch','appAnimations'])
           }
         }
         formerIndex = rowIndex;
+        formerID = element.attr('id');
 
         var isNew = !formerContainer;
         if(!formerContainer) {

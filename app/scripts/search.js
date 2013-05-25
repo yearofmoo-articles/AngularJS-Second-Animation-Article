@@ -1,4 +1,4 @@
-angular.module('appSearch', [])
+angular.module('AppSearch', [])
   .factory('appSearch', ['$rootScope', '$q', function($rootScope, $q) {
     var engine = lunr(function () {
       this.ref('id');
