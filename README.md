@@ -1,4 +1,4 @@
-# AngularJS Second Testing Article Demo
+# AngularJS Second Animation Article Demo
 
 This repository is the demo code for the demo website created with the Second AngularJS Testing Article on yearofmoo.com.
 
@@ -20,7 +20,7 @@ http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html
 2. Then `cd animation-article`
 3. Then `npm install`
 4. Then `./server.sh`
-5. And finally point your browser to http://localhost:8100/
+5. And finally point your browser to `http://localhost:8100/`
 
 ## Run Tests
 1. npm install

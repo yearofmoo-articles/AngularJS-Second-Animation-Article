@@ -14,7 +14,7 @@
   </div>
 </script>
 <div class="results">
-  <a href="" app-focus="{enter:'focus-enter',leave:'focus-leave',show:'focus-show',hide:'focus-hide'}" id="id-{{ result.id }}" ng-repeat="result in fetchResults(limit) track by result.id" class="result" ng-animate="getListAnimation()">
+  <a href="" app-focus="getFocusAnimation()" id="id-{{ result.id }}" ng-repeat="result in fetchResults(limit) track by result.id" class="result" ng-animate="getListAnimation()">
     <div class="inner">
       <h5>{{ result.name }}</h5>
       <img ng-src="http://builtwith.angularjs.org/projects/{{ result.thumb }}" />

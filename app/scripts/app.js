@@ -35,6 +35,12 @@ angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
       $rootScope.$broadcast('results');
     };
 
+    $scope.getFocusAnimation = function() {
+      if($scope.library != '') {
+        return {enter:'focus-enter',leave:'focus-leave',show:'focus-show',hide:'focus-hide'};
+      }
+    };
+
     $scope.getListAnimation = function() {
       if($scope.library == 'greensock') {
         return {leave:'list-out', enter:'list-in', move:'list-move'}
