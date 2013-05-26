@@ -23,5 +23,5 @@ http://www.yearofmoo.com/2013/05/enhanced-animations-in-angularjs.html
 5. And finally point your browser to `http://localhost:8100/`
 
 ## Run Tests
-1. npm install
-2. Run `./test.sh` at the root of the repo
+1. Run `npm install`
+2. Then run `./test.sh` at the root of the repo

@@ -11,7 +11,7 @@ describe('Testing Async Animations', function() {
     $rootScope = _$rootScope_;
   }));
 
-  it("should synchronously test the animation", function(done) {
+  it("should asynchronously test the animation", function(done) {
     var body = angular.element($document[0].body);
     var element = angular.element('<div>hello</div>');
 

@@ -3,24 +3,28 @@ describe('Testing Sync Animations', function() {
 
   beforeEach(module('AppAnimations'));
 
-  var w;
+  var setTimeout;
   beforeEach(module(function($provide) {
-    w = window;
-    var setTimeout = window.setTimeout,
-        fnQueue = [];
-    w.setTimeout = function(fn, delay) {
+    setTimeout = window.setTimeout;
+
+    var fnQueue = [];
+    window.setTimeout = function(fn, delay) {
       fnQueue.push({
         delay : delay,
         process : fn
       });
     };
-    w.setTimeout.expect = function(delay) {
+    window.setTimeout.expect = function(delay) {
       var first = fnQueue.shift();
       expect(first.delay).to.equal(delay);
       return first;
     };
-    $provide.value('$window', w);
+    $provide.value('$window', window);
   }));
+
+  afterEach(function() {
+    window.setTimeout = setTimeout;
+  });
 
   it("should synchronously test the animation",
     inject(function($animator, $document, $rootScope) {
