@@ -1,6 +1,6 @@
 # AngularJS Second Animation Article Demo
 
-This repository is the demo code for the demo website created with the Second AngularJS Testing Article on yearofmoo.com.
+This repository is the demo code for the demo website created with the Second AngularJS Animation Article on yearofmoo.com.
 
 ## Demo
 
