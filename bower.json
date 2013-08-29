@@ -1,0 +1,11 @@
+{
+  "name":  "yearofmoo",
+  "version": "0.0.1",
+  "dependencies": {
+    "gumby": "latest",
+    "jquery": "latest",
+    "greensock-js": "latest",
+    "animate.css": "latest",
+    "ngAnimate-animate.css": "git@github.com:yearofmoo/ngAnimate-animate.css.git"
+  }
+}

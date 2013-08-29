@@ -39,7 +39,7 @@ body {
   padding:5px;
 }
 .website-header {
-  background:url(../images/checks.png) white 50px 50px;
+  background:url(/images/checks.png) white 50px 50px;
   position:relative;
   z-index:1000;
 }

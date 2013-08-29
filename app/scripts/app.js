@@ -1,4 +1,4 @@
-angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
+angular.module('AngularPortfolio', ['ngRoute','ngAnimate','ngAnimate-animate.css','AppSearch','AppAnimations'])
   .config(['$routeProvider', function($routeProvider) {
     var shared = {
       controller: 'ListCtrl',
@@ -35,21 +35,15 @@ angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
       $rootScope.$broadcast('results');
     };
 
-    $scope.getFocusAnimation = function() {
-      if($scope.library != '') {
-        return {enter:'focus-enter',leave:'focus-leave',show:'focus-show',hide:'focus-hide'};
-      }
-    };
-
     $scope.getListAnimation = function() {
       if($scope.library == 'greensock') {
-        return {leave:'list-out', enter:'list-in', move:'list-move'}
+        return 'list';
       }
       else if($scope.library == 'animatecss') {
-        return {leave:'animated bounceOut', enter:'animated bounceIn', move:'animated bounceIn'}
+        return 'dn-bounce';
       }
       else if($scope.library == 'custom') {
-        return {leave:'custom-out', enter:'custom-in', move:'custom-in'}
+        return 'custom';
       }
     };
   }])
@@ -82,7 +76,9 @@ angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
     };
   })
 
-  .directive('appFocus', ['appSearch','$rootScope','$compile','$animator',function(appSearch, $rootScope, $compile, $animator) {
+  .directive('appFocus', ['appSearch','$rootScope','$compile','$animate','$templateCache',
+    function(appSearch, $rootScope, $compile, $animate, $templateCache) {
+
     var former, formerContainer, formerID, formerIndex = -1;
     $rootScope.$on('results', function() {
       if(former) {
@@ -93,16 +89,12 @@ angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
     return function($scope, element, attrs) {
       element.bind('click', function() {
         if(formerID == element.attr('id')) return;
-        var animator = $animator($scope, {
-          ngAnimate: attrs.appFocus
-        });
 
         var cursor = element, parent = cursor.parent();
         while(cursor && cursor.position().left > 100) {
           cursor = cursor.prev();
         }
 
-        ngAnimate: attrs.appFocus
         var row = [], pos;
         do {
           row.push(cursor);
@@ -115,11 +107,11 @@ angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
 
         if(former) {
           if(rowIndex != formerIndex) {
-            animator.hide(formerContainer);
+            $animate.addClass(formerContainer, 'ng-hide');
             formerContainer = former = null;
           }
           else {
-            animator.leave(former);
+            $animate.leave(former);
           }
         }
         formerIndex = rowIndex;
@@ -129,17 +121,19 @@ angular.module('AngularPortfolio', ['AppSearch','AppAnimations'])
         if(!formerContainer) {
           formerContainer = angular.element('<div class="focus"></div>');
           row[0].before(formerContainer);
-          formerContainer.hide();
+          formerContainer.addClass('ng-hide');
         }
 
-        former = angular.element('<div ng-include="\'focus\'" class="focus-slide"></div>');
+        var html = $templateCache.get('focus');
+        former = angular.element('<div class="focus-slide">' + html + '</div>');
         $compile(former)($scope);
-        $scope.$apply();
-
-        animator.enter(former, formerContainer);
         if(isNew) {
-          animator.show(formerContainer);
+          $animate.removeClass(formerContainer, 'ng-hide');
         }
+
+        $scope.$apply(function() {
+          $animate.enter(former, formerContainer);
+        });
       });
 
       function getRowIndex(element, perRow) {

@@ -1,0 +1,461 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 warn package.json YOM-AngularJS-Second-Testing-Article@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-css',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-shell',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-karma',
+6 verbose install     'bower',
+6 verbose install     'lunr',
+6 verbose install     'karma',
+6 verbose install     'karma-mocha',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-safari-launcher',
+6 verbose install     'karma-firefox-launcher',
+6 verbose install     'karma-ng-scenario',
+6 verbose install     'chai' ] ]
+7 info preinstall YOM-AngularJS-Second-Testing-Article@0.0.0
+8 warn package.json lunr@0.4.1 No repository field.
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping grunt-contrib-connect@~0.1.2 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+11 verbose already installed skipping grunt@~0.4.1 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+12 verbose already installed skipping grunt-css@~0.5.4 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+13 verbose already installed skipping grunt-contrib-uglify@~0.2.1 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+14 verbose already installed skipping grunt-contrib-concat@~0.3.0 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+15 verbose already installed skipping grunt-contrib-watch@~0.4.4 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+16 verbose already installed skipping grunt-shell@~0.2.2 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+17 verbose already installed skipping grunt-contrib-copy@~0.4.1 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+18 verbose cache add [ 'grunt-karma@latest', null ]
+19 verbose cache add name=undefined spec="grunt-karma@latest" args=["grunt-karma@latest",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'grunt-karma@latest',
+20 verbose parsed url   path: 'grunt-karma@latest',
+20 verbose parsed url   href: 'grunt-karma@latest' }
+21 verbose cache add name="grunt-karma" spec="latest" args=["grunt-karma","latest"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'latest',
+22 verbose parsed url   path: 'latest',
+22 verbose parsed url   href: 'latest' }
+23 verbose addNamed [ 'grunt-karma', 'latest' ]
+24 verbose addNamed [ null, null ]
+25 verbose already installed skipping bower@~0.9.2 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+26 verbose cache add [ 'lunr@latest', null ]
+27 verbose cache add name=undefined spec="lunr@latest" args=["lunr@latest",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'lunr@latest',
+28 verbose parsed url   path: 'lunr@latest',
+28 verbose parsed url   href: 'lunr@latest' }
+29 verbose cache add name="lunr" spec="latest" args=["lunr","latest"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'latest',
+30 verbose parsed url   path: 'latest',
+30 verbose parsed url   href: 'latest' }
+31 verbose addNamed [ 'lunr', 'latest' ]
+32 verbose addNamed [ null, null ]
+33 silly lockFile 60905be5-grunt-karma-latest grunt-karma@latest
+34 verbose lock grunt-karma@latest /Users/matias/.npm/60905be5-grunt-karma-latest.lock
+35 verbose already installed skipping karma@0.8.4 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+36 verbose cache add [ 'karma-mocha@latest', null ]
+37 verbose cache add name=undefined spec="karma-mocha@latest" args=["karma-mocha@latest",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'karma-mocha@latest',
+38 verbose parsed url   path: 'karma-mocha@latest',
+38 verbose parsed url   href: 'karma-mocha@latest' }
+39 verbose cache add name="karma-mocha" spec="latest" args=["karma-mocha","latest"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'latest',
+40 verbose parsed url   path: 'latest',
+40 verbose parsed url   href: 'latest' }
+41 verbose addNamed [ 'karma-mocha', 'latest' ]
+42 verbose addNamed [ null, null ]
+43 silly lockFile 8d5a493d-karma-mocha-latest karma-mocha@latest
+44 verbose lock karma-mocha@latest /Users/matias/.npm/8d5a493d-karma-mocha-latest.lock
+45 silly lockFile 00840280-lunr-latest lunr@latest
+46 verbose lock lunr@latest /Users/matias/.npm/00840280-lunr-latest.lock
+47 verbose cache add [ 'karma-chrome-launcher@latest', null ]
+48 verbose cache add name=undefined spec="karma-chrome-launcher@latest" args=["karma-chrome-launcher@latest",null]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: 'karma-chrome-launcher@latest',
+49 verbose parsed url   path: 'karma-chrome-launcher@latest',
+49 verbose parsed url   href: 'karma-chrome-launcher@latest' }
+50 verbose cache add name="karma-chrome-launcher" spec="latest" args=["karma-chrome-launcher","latest"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: 'latest',
+51 verbose parsed url   path: 'latest',
+51 verbose parsed url   href: 'latest' }
+52 verbose addNamed [ 'karma-chrome-launcher', 'latest' ]
+53 verbose addNamed [ null, null ]
+54 silly lockFile a0517ef2-karma-chrome-launcher-latest karma-chrome-launcher@latest
+55 verbose lock karma-chrome-launcher@latest /Users/matias/.npm/a0517ef2-karma-chrome-launcher-latest.lock
+56 verbose cache add [ 'karma-safari-launcher@latest', null ]
+57 verbose cache add name=undefined spec="karma-safari-launcher@latest" args=["karma-safari-launcher@latest",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'karma-safari-launcher@latest',
+58 verbose parsed url   path: 'karma-safari-launcher@latest',
+58 verbose parsed url   href: 'karma-safari-launcher@latest' }
+59 verbose cache add name="karma-safari-launcher" spec="latest" args=["karma-safari-launcher","latest"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: 'latest',
+60 verbose parsed url   path: 'latest',
+60 verbose parsed url   href: 'latest' }
+61 verbose addNamed [ 'karma-safari-launcher', 'latest' ]
+62 verbose addNamed [ null, null ]
+63 silly lockFile 710372b0-karma-safari-launcher-latest karma-safari-launcher@latest
+64 verbose lock karma-safari-launcher@latest /Users/matias/.npm/710372b0-karma-safari-launcher-latest.lock
+65 info addNameTag [ 'grunt-karma', 'latest' ]
+66 verbose cache add [ 'karma-firefox-launcher@latest', null ]
+67 verbose cache add name=undefined spec="karma-firefox-launcher@latest" args=["karma-firefox-launcher@latest",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'karma-firefox-launcher@latest',
+68 verbose parsed url   path: 'karma-firefox-launcher@latest',
+68 verbose parsed url   href: 'karma-firefox-launcher@latest' }
+69 verbose cache add name="karma-firefox-launcher" spec="latest" args=["karma-firefox-launcher","latest"]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'latest',
+70 verbose parsed url   path: 'latest',
+70 verbose parsed url   href: 'latest' }
+71 verbose addNamed [ 'karma-firefox-launcher', 'latest' ]
+72 verbose addNamed [ null, null ]
+73 silly lockFile 5c09dcf1-karma-firefox-launcher-latest karma-firefox-launcher@latest
+74 verbose lock karma-firefox-launcher@latest /Users/matias/.npm/5c09dcf1-karma-firefox-launcher-latest.lock
+75 verbose cache add [ 'karma-ng-scenario@latest', null ]
+76 verbose cache add name=undefined spec="karma-ng-scenario@latest" args=["karma-ng-scenario@latest",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'karma-ng-scenario@latest',
+77 verbose parsed url   path: 'karma-ng-scenario@latest',
+77 verbose parsed url   href: 'karma-ng-scenario@latest' }
+78 verbose cache add name="karma-ng-scenario" spec="latest" args=["karma-ng-scenario","latest"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'latest',
+79 verbose parsed url   path: 'latest',
+79 verbose parsed url   href: 'latest' }
+80 verbose addNamed [ 'karma-ng-scenario', 'latest' ]
+81 verbose addNamed [ null, null ]
+82 silly lockFile 5429f088-karma-ng-scenario-latest karma-ng-scenario@latest
+83 verbose lock karma-ng-scenario@latest /Users/matias/.npm/5429f088-karma-ng-scenario-latest.lock
+84 verbose already installed skipping chai@1.6.0 /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+85 info addNameTag [ 'karma-mocha', 'latest' ]
+86 info addNameTag [ 'lunr', 'latest' ]
+87 info addNameTag [ 'karma-chrome-launcher', 'latest' ]
+88 info addNameTag [ 'karma-safari-launcher', 'latest' ]
+89 info addNameTag [ 'karma-firefox-launcher', 'latest' ]
+90 verbose url raw grunt-karma
+91 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-karma' ]
+92 verbose url resolved https://registry.npmjs.org/grunt-karma
+93 info trying registry request attempt 1 at 09:40:18
+94 verbose etag "61U4JWJDGN9O94QS9F4F8VMJY"
+95 http GET https://registry.npmjs.org/grunt-karma
+96 verbose url raw karma-mocha
+97 verbose url resolving [ 'https://registry.npmjs.org/', './karma-mocha' ]
+98 verbose url resolved https://registry.npmjs.org/karma-mocha
+99 info trying registry request attempt 1 at 09:40:18
+100 verbose etag "2WOZOYF9WCAXYG0E4RM7NZZKF"
+101 http GET https://registry.npmjs.org/karma-mocha
+102 info addNameTag [ 'karma-ng-scenario', 'latest' ]
+103 verbose url raw lunr
+104 verbose url resolving [ 'https://registry.npmjs.org/', './lunr' ]
+105 verbose url resolved https://registry.npmjs.org/lunr
+106 info trying registry request attempt 1 at 09:40:18
+107 verbose etag "AO264EZF4J7H533JHS4JVHNMJ"
+108 http GET https://registry.npmjs.org/lunr
+109 verbose url raw karma-chrome-launcher
+110 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
+111 verbose url resolved https://registry.npmjs.org/karma-chrome-launcher
+112 info trying registry request attempt 1 at 09:40:18
+113 verbose etag "7LJEVHVTXMHVDLA06ZX0O6KJ3"
+114 http GET https://registry.npmjs.org/karma-chrome-launcher
+115 verbose url raw karma-safari-launcher
+116 verbose url resolving [ 'https://registry.npmjs.org/', './karma-safari-launcher' ]
+117 verbose url resolved https://registry.npmjs.org/karma-safari-launcher
+118 info trying registry request attempt 1 at 09:40:18
+119 verbose etag "7OKM9SAL8P7UEUZNGE6PC0ST3"
+120 http GET https://registry.npmjs.org/karma-safari-launcher
+121 verbose url raw karma-firefox-launcher
+122 verbose url resolving [ 'https://registry.npmjs.org/', './karma-firefox-launcher' ]
+123 verbose url resolved https://registry.npmjs.org/karma-firefox-launcher
+124 info trying registry request attempt 1 at 09:40:18
+125 verbose etag "AT3W9BYRSZDU9BKGU3AO80Z2O"
+126 http GET https://registry.npmjs.org/karma-firefox-launcher
+127 verbose url raw karma-ng-scenario
+128 verbose url resolving [ 'https://registry.npmjs.org/', './karma-ng-scenario' ]
+129 verbose url resolved https://registry.npmjs.org/karma-ng-scenario
+130 info trying registry request attempt 1 at 09:40:18
+131 verbose etag "6VRP1KEN59DDSGELBVB6MS8G5"
+132 http GET https://registry.npmjs.org/karma-ng-scenario
+133 http 304 https://registry.npmjs.org/karma-mocha
+134 silly registry.get cb [ 304,
+134 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+134 silly registry.get     etag: '"2WOZOYF9WCAXYG0E4RM7NZZKF"',
+134 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:15 GMT',
+134 silly registry.get     'content-length': '0' } ]
+135 verbose etag karma-mocha from cache
+136 verbose addNamed [ 'karma-mocha', '0.1.0' ]
+137 verbose addNamed [ '0.1.0', '0.1.0' ]
+138 silly lockFile ecb50e4d-karma-mocha-0-1-0 karma-mocha@0.1.0
+139 verbose lock karma-mocha@0.1.0 /Users/matias/.npm/ecb50e4d-karma-mocha-0-1-0.lock
+140 silly lockFile ecb50e4d-karma-mocha-0-1-0 karma-mocha@0.1.0
+141 silly lockFile ecb50e4d-karma-mocha-0-1-0 karma-mocha@0.1.0
+142 silly lockFile 8d5a493d-karma-mocha-latest karma-mocha@latest
+143 silly lockFile 8d5a493d-karma-mocha-latest karma-mocha@latest
+144 info already installed karma-mocha@0.1.0
+145 http 304 https://registry.npmjs.org/grunt-karma
+146 silly registry.get cb [ 304,
+146 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+146 silly registry.get     etag: '"61U4JWJDGN9O94QS9F4F8VMJY"',
+146 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:15 GMT',
+146 silly registry.get     'content-length': '0' } ]
+147 verbose etag grunt-karma from cache
+148 http 304 https://registry.npmjs.org/lunr
+149 silly registry.get cb [ 304,
+149 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+149 silly registry.get     etag: '"AO264EZF4J7H533JHS4JVHNMJ"',
+149 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:15 GMT',
+149 silly registry.get     'content-length': '0' } ]
+150 verbose etag lunr from cache
+151 http 304 https://registry.npmjs.org/karma-chrome-launcher
+152 silly registry.get cb [ 304,
+152 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+152 silly registry.get     etag: '"7LJEVHVTXMHVDLA06ZX0O6KJ3"',
+152 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:15 GMT',
+152 silly registry.get     'content-length': '0' } ]
+153 verbose etag karma-chrome-launcher from cache
+154 http 304 https://registry.npmjs.org/karma-safari-launcher
+155 silly registry.get cb [ 304,
+155 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+155 silly registry.get     etag: '"7OKM9SAL8P7UEUZNGE6PC0ST3"',
+155 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:15 GMT',
+155 silly registry.get     'content-length': '0' } ]
+156 verbose etag karma-safari-launcher from cache
+157 verbose addNamed [ 'karma-safari-launcher', '0.1.1' ]
+158 verbose addNamed [ '0.1.1', '0.1.1' ]
+159 silly lockFile da3b0218-karma-safari-launcher-0-1-1 karma-safari-launcher@0.1.1
+160 verbose lock karma-safari-launcher@0.1.1 /Users/matias/.npm/da3b0218-karma-safari-launcher-0-1-1.lock
+161 verbose addNamed [ 'lunr', '0.4.1' ]
+162 verbose addNamed [ '0.4.1', '0.4.1' ]
+163 silly lockFile 47b2a71c-lunr-0-4-1 lunr@0.4.1
+164 verbose lock lunr@0.4.1 /Users/matias/.npm/47b2a71c-lunr-0-4-1.lock
+165 verbose addNamed [ 'karma-chrome-launcher', '0.1.0' ]
+166 verbose addNamed [ '0.1.0', '0.1.0' ]
+167 silly lockFile 154be6ac-karma-chrome-launcher-0-1-0 karma-chrome-launcher@0.1.0
+168 verbose lock karma-chrome-launcher@0.1.0 /Users/matias/.npm/154be6ac-karma-chrome-launcher-0-1-0.lock
+169 verbose addNamed [ 'grunt-karma', '0.6.2' ]
+170 verbose addNamed [ '0.6.2', '0.6.2' ]
+171 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+172 verbose lock grunt-karma@0.6.2 /Users/matias/.npm/5237908c-grunt-karma-0-6-2.lock
+173 silly lockFile da3b0218-karma-safari-launcher-0-1-1 karma-safari-launcher@0.1.1
+174 silly lockFile da3b0218-karma-safari-launcher-0-1-1 karma-safari-launcher@0.1.1
+175 silly lockFile 47b2a71c-lunr-0-4-1 lunr@0.4.1
+176 silly lockFile 47b2a71c-lunr-0-4-1 lunr@0.4.1
+177 silly lockFile 154be6ac-karma-chrome-launcher-0-1-0 karma-chrome-launcher@0.1.0
+178 silly lockFile 154be6ac-karma-chrome-launcher-0-1-0 karma-chrome-launcher@0.1.0
+179 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+180 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+181 silly lockFile 710372b0-karma-safari-launcher-latest karma-safari-launcher@latest
+182 silly lockFile 710372b0-karma-safari-launcher-latest karma-safari-launcher@latest
+183 silly lockFile 00840280-lunr-latest lunr@latest
+184 silly lockFile 00840280-lunr-latest lunr@latest
+185 silly lockFile a0517ef2-karma-chrome-launcher-latest karma-chrome-launcher@latest
+186 silly lockFile a0517ef2-karma-chrome-launcher-latest karma-chrome-launcher@latest
+187 silly lockFile 60905be5-grunt-karma-latest grunt-karma@latest
+188 silly lockFile 60905be5-grunt-karma-latest grunt-karma@latest
+189 info already installed karma-safari-launcher@0.1.1
+190 info already installed lunr@0.4.1
+191 info already installed karma-chrome-launcher@0.1.0
+192 info already installed grunt-karma@0.6.2
+193 http 304 https://registry.npmjs.org/karma-firefox-launcher
+194 silly registry.get cb [ 304,
+194 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+194 silly registry.get     etag: '"AT3W9BYRSZDU9BKGU3AO80Z2O"',
+194 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:16 GMT',
+194 silly registry.get     'content-length': '0' } ]
+195 verbose etag karma-firefox-launcher from cache
+196 verbose addNamed [ 'karma-firefox-launcher', '0.1.0' ]
+197 verbose addNamed [ '0.1.0', '0.1.0' ]
+198 silly lockFile ef3433a9-karma-firefox-launcher-0-1-0 karma-firefox-launcher@0.1.0
+199 verbose lock karma-firefox-launcher@0.1.0 /Users/matias/.npm/ef3433a9-karma-firefox-launcher-0-1-0.lock
+200 silly lockFile ef3433a9-karma-firefox-launcher-0-1-0 karma-firefox-launcher@0.1.0
+201 silly lockFile ef3433a9-karma-firefox-launcher-0-1-0 karma-firefox-launcher@0.1.0
+202 silly lockFile 5c09dcf1-karma-firefox-launcher-latest karma-firefox-launcher@latest
+203 silly lockFile 5c09dcf1-karma-firefox-launcher-latest karma-firefox-launcher@latest
+204 info already installed karma-firefox-launcher@0.1.0
+205 http 304 https://registry.npmjs.org/karma-ng-scenario
+206 silly registry.get cb [ 304,
+206 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+206 silly registry.get     etag: '"6VRP1KEN59DDSGELBVB6MS8G5"',
+206 silly registry.get     date: 'Thu, 29 Aug 2013 13:40:16 GMT',
+206 silly registry.get     'content-length': '0' } ]
+207 verbose etag karma-ng-scenario from cache
+208 verbose addNamed [ 'karma-ng-scenario', '0.1.0' ]
+209 verbose addNamed [ '0.1.0', '0.1.0' ]
+210 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+211 verbose lock karma-ng-scenario@0.1.0 /Users/matias/.npm/f90b10d8-karma-ng-scenario-0-1-0.lock
+212 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+213 silly lockFile f90b10d8-karma-ng-scenario-0-1-0 karma-ng-scenario@0.1.0
+214 silly lockFile 5429f088-karma-ng-scenario-latest karma-ng-scenario@latest
+215 silly lockFile 5429f088-karma-ng-scenario-latest karma-ng-scenario@latest
+216 info already installed karma-ng-scenario@0.1.0
+217 silly resolved []
+218 info build /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+219 verbose linkStuff [ false, false, false, '/Users/matias/Sites/yearofmoo/articles' ]
+220 info linkStuff YOM-AngularJS-Second-Testing-Article@0.0.0
+221 verbose linkBins YOM-AngularJS-Second-Testing-Article@0.0.0
+222 verbose linkMans YOM-AngularJS-Second-Testing-Article@0.0.0
+223 verbose rebuildBundles YOM-AngularJS-Second-Testing-Article@0.0.0
+224 verbose rebuildBundles [ '.DS_Store',
+224 verbose rebuildBundles   '.bin',
+224 verbose rebuildBundles   'bower',
+224 verbose rebuildBundles   'chai',
+224 verbose rebuildBundles   'grunt',
+224 verbose rebuildBundles   'grunt-contrib-concat',
+224 verbose rebuildBundles   'grunt-contrib-connect',
+224 verbose rebuildBundles   'grunt-contrib-copy',
+224 verbose rebuildBundles   'grunt-contrib-uglify',
+224 verbose rebuildBundles   'grunt-contrib-watch',
+224 verbose rebuildBundles   'grunt-css',
+224 verbose rebuildBundles   'grunt-karma',
+224 verbose rebuildBundles   'grunt-shell',
+224 verbose rebuildBundles   'karma',
+224 verbose rebuildBundles   'karma-chrome-launcher',
+224 verbose rebuildBundles   'karma-firefox-launcher',
+224 verbose rebuildBundles   'karma-mocha',
+224 verbose rebuildBundles   'karma-ng-scenario',
+224 verbose rebuildBundles   'karma-safari-launcher',
+224 verbose rebuildBundles   'lunr' ]
+225 info install YOM-AngularJS-Second-Testing-Article@0.0.0
+226 info postinstall YOM-AngularJS-Second-Testing-Article@0.0.0
+227 info prepublish YOM-AngularJS-Second-Testing-Article@0.0.0
+228 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+228 error peerinvalid Peer grunt-karma@0.6.2 wants karma@~0.10.0
+228 error peerinvalid Peer karma-mocha@0.1.0 wants karma@>=0.9
+228 error peerinvalid Peer karma-chrome-launcher@0.1.0 wants karma@>=0.9.3
+228 error peerinvalid Peer karma-safari-launcher@0.1.1 wants karma@>=0.9
+228 error peerinvalid Peer karma-firefox-launcher@0.1.0 wants karma@>=0.9
+228 error peerinvalid Peer karma-ng-scenario@0.1.0 wants karma@>=0.9
+229 error System Darwin 12.4.0
+230 error command "node" "/usr/local/bin/npm" "install"
+231 error cwd /Users/matias/Sites/yearofmoo/articles/AngularJS-Second-Animation-Article
+232 error node -v v0.10.17
+233 error npm -v 1.3.8
+234 error code EPEERINVALID
+235 verbose exit [ 1, true ]

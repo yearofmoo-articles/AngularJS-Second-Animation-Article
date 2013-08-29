@@ -1,11 +1,11 @@
-.custom-in {
-  -webkit-animation:custom_in 0.5s;
-  -moz-animation:custom_in 0.5s;
-  -o-animation:custom_in 0.5s;
-  animation:custom_in 0.5s;
+.custom.ng-enter {
+  -webkit-animation:custom_enter 0.5s;
+  -moz-animation:custom_enter 0.5s;
+  -o-animation:custom_enter 0.5s;
+  animation:custom_enter 0.5s;
 }
 
-@keyframes custom_in {
+@keyframes custom_enter {
   from {
     transform:rotate(-30deg);
     opacity:0;
@@ -16,7 +16,7 @@
   }
 }
 
-@-webkit-keyframes custom_in {
+@-webkit-keyframes custom_enter {
   from {
     -webkit-transform:rotate(-30deg);
     opacity:0;
@@ -27,7 +27,7 @@
   }
 }
 
-@-moz-keyframes custom_in {
+@-moz-keyframes custom_enter {
   from {
     -moz-transform:rotate(-30deg);
     opacity:0;
@@ -38,7 +38,7 @@
   }
 }
 
-@-o-keyframes custom_in {
+@-o-keyframes custom_enter {
   from {
     -o-transform:rotate(-30deg);
     opacity:0;
@@ -49,14 +49,14 @@
   }
 }
 
-.custom-out {
-  -webkit-animation:custom_out 0.5s;
-  -moz-animation:custom_out 0.5s;
-  -o-animation:custom_out 0.5s;
-  animation:custom_out 0.5s;
+.custom.ng-leave {
+  -webkit-animation:custom_leave 0.5s;
+  -moz-animation:custom_leave 0.5s;
+  -o-animation:custom_leave 0.5s;
+  animation:custom_leave 0.5s;
 }
 
-@keyframes custom_out {
+@keyframes custom_leave {
   from {
     opacity:1;
   }
@@ -66,7 +66,7 @@
   }
 }
 
-@-webkit-keyframes custom_out {
+@-webkit-keyframes custom_leave {
   from {
     opacity:1;
   }
@@ -76,7 +76,7 @@
   }
 }
 
-@-moz-keyframes custom_out {
+@-moz-keyframes custom_leave {
   from {
     opacity:1;
   }
@@ -86,7 +86,7 @@
   }
 }
 
-@-o-keyframes custom_out {
+@-o-keyframes custom_leave {
   from {
     opacity:1;
   }
