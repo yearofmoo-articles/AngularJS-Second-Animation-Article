@@ -1,4 +1,10 @@
-angular.module('AngularPortfolio', ['ngRoute','ngAnimate','ngAnimate-animate.css','AppSearch','AppAnimations'])
+angular.module('AngularPortfolio',
+  ['ngRoute',
+   'ngAnimate',
+
+   'AppSearch',
+   'AppAnimations'])
+
   .config(['$routeProvider', function($routeProvider) {
     var shared = {
       controller: 'ListCtrl',

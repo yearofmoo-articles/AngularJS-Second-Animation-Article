@@ -47,9 +47,6 @@ module.exports = function(grunt) {
         dest: './app/assets/app.js',
         src: [
           'bower_components/jquery/jquery.js',
-          'app/lib/angular-1.2.0-bd26324/angular.js',
-          'app/lib/angular-1.2.0-bd26324/angular-route.js',
-          'app/lib/angular-1.2.0-bd26324/angular-animate.js',
           'bower_components/greensock-js/src/uncompressed/TweenMax.js',
           'node_modules/lunr/lunr.js',
           'bower_components/ngAnimate-animate.css/animate.js',
